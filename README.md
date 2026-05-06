@@ -36,6 +36,7 @@ Getting Started with links to your deployed site and Trello: -
 Screenshots:
 
 Wireframes: 
+<img width="315" height="1209" alt="image" src="https://github.com/user-attachments/assets/03ff4d9b-149f-4531-9a3f-06cd8bd3e108" />
 
 ERD: 
 <img width="488" height="458" alt="Untitled Diagram drawio (2)" src="https://github.com/user-attachments/assets/2d4f1ff6-4660-4818-897e-afb7863504a7" />#
