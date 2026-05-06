@@ -2,6 +2,7 @@ Unity-Wear
 
 Project title: Unity Wear
 Date: 6/5/2026
+
 LinkedIn: Yasmeen Ebrahim (www.linkedin.com/in/yasmeenebrahim1999) and GitHub: yasmeeneb1999 (https://github.com/yasmeeneb1999)
 
 Project idea: Represents the registered users of the platform.
