@@ -2,7 +2,7 @@ Unity-Wear
 
 Project title: Unity Wear
 Date: 6/5/2026
-LinkedIn: Yasmeen Ebrahim and GitHub: yasmeeneb1999
+LinkedIn: Yasmeen Ebrahim (www.linkedin.com/in/yasmeenebrahim1999) and GitHub: yasmeeneb1999 (https://github.com/yasmeeneb1999)
 
 Project idea: Represents the registered users of the platform.
 
@@ -26,12 +26,7 @@ Technologies Used:
 -	Git Bash.
 
 Getting Started with links to your deployed site and Trello: -
-•	Sign-up And Sign-in.
-•	Add clothes by the user.
-•	Other users check the available items.
-•	Get a request to get the item.
-•	The owner of the item receives the request and response.
-• Have Full CRUD (CREATE, READ, UPDATE, DELETE)
+Sign-up And Sign-in, Add clothes by the user, Other users check the available items, Get a request to get the item, The owner of the item receives the request and response, Have Full CRUD (CREATE, READ, UPDATE, DELETE).
 
 Screenshots:
 
