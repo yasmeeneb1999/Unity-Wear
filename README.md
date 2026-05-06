@@ -21,6 +21,8 @@ Request Model: get a request from the other user for a specific item.
 -	Communication between both users to get the items.
 -	Get request.
 -	Send message to the owner of the item.
+
+
 Technologies Used: 
 -	Django.
 -	Draw.io.
