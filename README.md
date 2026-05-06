@@ -1,4 +1,4 @@
-Unity-Wear
+👔 Unity-Wear
 -
 Project title: Unity Wear
 -
@@ -12,7 +12,7 @@ GitHub:
 -
 yasmeeneb1999 (https://github.com/yasmeeneb1999)
 
-Project idea: 
+💥 Project idea: 
 -
 Represents the registered users of the platform.
 
@@ -59,7 +59,9 @@ ERD:
 <img width="488" height="458" alt="Untitled Diagram drawio (2)" src="https://github.com/user-attachments/assets/2d4f1ff6-4660-4818-897e-afb7863504a7" />#
 
 Future Updates:
+-
 Improve user profile.
 Add notification system.
 
-Creadits: 
+Creadits:
+-
