@@ -61,7 +61,9 @@ ERD:
 Future Updates:
 -
 Improve user profile.
+
 Add notification system.
 
 Creadits:
--
+- 
+Previous Classes Templates.
