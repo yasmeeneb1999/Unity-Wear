@@ -1,0 +1,35 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static "css/request-list.css" %}">
+{% endblock head %}
+
+
+{% block content %}
+
+<h1>All Requests</h1>
+
+{% for request in requests %}
+
+<div class="card">
+    <img src="{{request.clothing_item.image}}" width="300">
+
+
+    <h2>{{request.clothing_item.title}}</h2>
+
+    <p>{{request.message}}</p>
+
+    <p>{{request.requester.username}}</p>
+
+    <a href="/requests/{{request.id}}/update/">
+      <button>Update Request</button>
+    </a>
+    <form method="post"action="/requests/{{request.id}}/delete/">
+      {% csrf_token %}
+      <button>Delete Request</button>
+    </form>
+</div>
+
+{% endfor %}
+
+{% endblock %}

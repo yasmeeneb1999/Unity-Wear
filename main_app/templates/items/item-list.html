@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>Available Items</h1>
+{% for item in items %}
+<div class="card">
+  <img src="{{item.image}}" width="250">
+  <h1>{{item.title}}</h1>
+  <p>{{item.description}}</p>
+  <p>Size: {{item.size}}</p>
+  <p>Category: {{item.category}}</p>
+  <p>Condition:{{item.condition}}</p>
+
+  <a href="/items/{{item.id}}">
+    <button>See Details</button>
+  </a>
+
+</div>
+{% empty %}
+<p>No Items Yet ..</p>
+
+{% endfor %}
+
+{% endblock content %}

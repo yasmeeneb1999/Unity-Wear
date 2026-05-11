@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="card">
+  <form method="post">
+    {% csrf_token %}
+    {% if form.instance.id %}
+    <h1>Update Items</h1>
+    {% else %}
+    <h1>Add Items</h1>
+    {% endif %}
+    {{form.as_p}}
+    {% if form.instance.id %}
+    <button>Update Item</button>
+    {% else %}
+    <button>Add Item</button>
+    {% endif %}
+
+  </form>
+</div>
+
+{% endblock content %}

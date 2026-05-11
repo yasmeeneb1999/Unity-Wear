@@ -1,0 +1,37 @@
+{% extends "base.html" %}
+
+{% block content %}
+
+<div class="card">
+  <img src="{{item.image}}" width="300">
+  <h1>{{item.title}}</h1>
+  <p>{{item.description}}</p>
+  <p>Phone Number: {{item.phone_number}}</p>
+  <p>Size: {{item.size}}</p>
+  <p>Category: {{item.category}}</p>
+  <p>Condition: {{item.condition}} </p>
+
+  {% if item.is_available %}
+  <p>Available for Donation</p>
+
+  {% else %}
+  <p>Not Available</p>
+
+  {% endif %}
+  {% if user == item.owner %}
+  <a href="/items/{{item.id}}/update">
+    <button>Edit Item</button>
+  </a>
+  <form method="post" action="/items/{{item.id}}/delete">
+    {% csrf_token %}
+    <button>Delete Item</button>
+  </form>
+{% else %}
+<a href="/requests/create/{{item.id}}">
+    <button>Request Item</button>
+  </a>
+  {% endif %}
+
+</div>
+
+{% endblock content %}

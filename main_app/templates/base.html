@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  {% block head %}{% endblock head %}
+</head>
+<body>
+  <nav>
+    <a href="/">Homepage</a>
+
+    {% if user.is_authenticated %}
+        <a href="/items">All Items</a>
+    <a href="/items/create">Create an items</a>
+    <a href="/requests/">All Requests</a>
+
+
+
+    {% endif %}
+    {% if user.is_authenticated %}
+
+    <span>Welcome {{user.username}}</span>
+
+        <form method='post' action="/auth/logout/">
+            {% csrf_token %}
+            <button>Logout</button>
+        </form>
+
+        {% else %}
+        <a href="/auth/login">Login</a>
+        <a href="/sign-up">Signup</a>
+        {% endif %}
+  </nav>
+  {% block content %}{% endblock content %}
+</body>
+</html>
