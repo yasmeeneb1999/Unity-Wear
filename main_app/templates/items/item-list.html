@@ -1,4 +1,10 @@
 {% extends "base.html" %}
+
+{% load static %}
+{% block head %}
+<link rel="stylesheet" href="{% static "css/request-list.css" %}">
+{% endblock head %}
+
 {% block content %}
 <h1>Available Items</h1>
 {% for item in items %}
