@@ -50,6 +50,12 @@ Sign-up And Sign-in, Add clothes by the user, Other users check the available it
 
 Screenshots:
 -
+<img width="1920" height="874" alt="Screenshot (1405)" src="https://github.com/user-attachments/assets/31d7061b-26c1-4517-b8e3-1dd6e7676152" />
+<img width="1920" height="931" alt="Screenshot (1406)" src="https://github.com/user-attachments/assets/f5de0781-d390-4aa9-86bd-e77ba6676ae1" />
+<img width="1920" height="925" alt="Screenshot (1407)" src="https://github.com/user-attachments/assets/5ea816e5-158a-47f0-8498-7a797d42088b" />
+<img width="1920" height="942" alt="Screenshot (1408)" src="https://github.com/user-attachments/assets/bdfe0ec3-2134-4ca9-bd3a-207fb6f6391b" />
+<img width="1920" height="923" alt="Screenshot (1409)" src="https://github.com/user-attachments/assets/bf9de3a9-f2c3-49b3-9b75-d3d6d5ec5266" />
+
 Wireframes: 
 -
 <img width="315" height="1209" alt="image" src="https://github.com/user-attachments/assets/03ff4d9b-149f-4531-9a3f-06cd8bd3e108" />
