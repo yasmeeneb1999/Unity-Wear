@@ -23,6 +23,7 @@
 
     <span>Welcome {{user.username}}</span>
 
+
         <form method='post' action="/auth/logout/">
             {% csrf_token %}
             <button>Logout</button>

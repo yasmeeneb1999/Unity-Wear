@@ -76,6 +76,7 @@ def request_create(request, item_id):
             return redirect(f"/items/{item.id}/")
         form = RequestForm()
     else:
+        product = ClothingItem.objects.get(id=item_id)
         form = RequestForm()
         return render(
             request,

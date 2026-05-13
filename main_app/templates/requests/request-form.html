@@ -3,7 +3,12 @@
 {% block content %}
 <div class="card">
   <h1>Request Item</h1>
-  <img src="{{request.clothing_item.image}}" width="250">
+  {% if item %}
+  <img src="{{item.image}}" width="300">
+  {% else %}
+    <img src="{{request.clothing_item.image}}" width="300">
+
+  {% endif %}
   <h2>
     {{item.title}}
   </h2>
