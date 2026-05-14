@@ -95,7 +95,7 @@ def request_list(request):
 def request_update(request, id):
     request_item = Request.objects.get(id=id)
 
-    if request.user != request_item.user:
+    if request.user != request_item.requester:
         return redirect("/requests/")
 
     if request.method == "POST":
